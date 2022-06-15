@@ -1,0 +1,24 @@
+implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    
+    
+    
+ android.useAndroidX=true
+# Enables namespacing of each library's R class so that its R class includes only the
+# resources declared in the library itself and none from the library's dependencies,
+# thereby reducing the size of the R class for that library
+android.nonTransitiveRClass=true
+
+android.enableJetifier=true
+
+
+
+
+repositories {
+        jcenter()
+        google()
+        mavenCentral()
+  }
+  
+  
+ 
